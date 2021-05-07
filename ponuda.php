@@ -22,7 +22,7 @@
                         <li><a href="http://localhost/sportskafizioterapija/prijava1.php">PRIJAVA</a></li>
                         <li><a href="http://localhost/sportskafizioterapija/odjava.php">ODJAVA</a></li>
                     </ul>
-             </nav>
+                </nav>
                 <img src="" class="logo"> <!--ubacite sliku po želji-->
 		        <span class="text">SRBALJ</span><br>
                 <span class="text2">SPORTSKA<br>FIZIOTERAPIJA</span> <br>
