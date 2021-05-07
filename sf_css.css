@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+}
+
+.prvasekcija{
+	background-image: url(); /* ubacite sliku po želji */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.sekcija{
+    margin : auto;
+    max-width: 1300px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background:white;
+    animation: headeranimate 5s 1;
+    z-index: 99;
+}
+
+@keyframes headeranimate{
+    from{ background:rgba(0,0,0,0.5)}
+    to {  background: white;}
+}
+
+nav ul{
+    padding-top: 6%;
+    list-style: none;
+    float: right;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li a{
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+	background: rgba(0,0,0,0.3);
+	border-radius: 8px;
+}
+
+nav ul li a:active{
+	 background: MidnightBlue;
+	 color: #fff;
+	 border-radius: 6px;
+ }
+
+.logo{
+    left: 0px;
+	height: 110px;
+	width: 110px;
+	float: left;
+	border-radius: 50%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.text{
+    padding-left: 3%;
+	color: midnightblue;
+	font-size: 60px;
+	letter-spacing: 8px;
+	animation: text 3s 1;
+}
+
+.text2{
+    padding-left: 3%;
+	font-family: nos;
+	color: black;
+	font-size: 15px;
+	letter-spacing: 8px;
+	padding-right: 10%;
+	padding-left: 6%;
+}
+
+.centriranitekst{
+	color: MidnightBlue;
+	font-size: 85px;
+	padding-top: 240px;
+	animation: centext 4s 1;
+
+}
+
+h3{
+	padding-top: 2%;
+	color: white;
+	text-align: center;
+	font-family: novi1;
+	font-size: 50px;
+}
+
+.sekcijaa{
+	width: 100%;
+	background-color: #191919;
+	padding-bottom: 3%;
+}
+
+.sekcija2{
+	background-color: white;
+	padding-bottom: 5%;
+}
+.sekcija3{
+	background-color: black;
+}
+
+.sekcija4{
+	padding-top: 7%;
+	background-color: white;
+	padding-bottom: 5%;
+}
+
+.slikag{
+	position:relative;
+	left: 270px;
+	width: 300px;
+	height: 300px;
+    border-radius: 50%;
+}
+
+.slikam{
+	position:relative;
+	left: 470px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+.slikama{
+	position:relative;
+	left: 670px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.text3 span:nth-child(1){
+	font-family: novi;
+	position: relative;
+	animation: animate 4s;
+	animation-fill-mode: backwards;
+}
+
+.text3 span:nth-child(2){
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 0.25s;
+	animation-fill-mode: backwards;
+}
+
+.text3 span:nth-child(3){
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 0.50s;
+	animation-fill-mode: backwards;
+}
+.text3 span:nth-child(4){
+	font-family: novi;
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+}
+
+.text3 span:nth-child(5){
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 1.25s;
+	animation-fill-mode: backwards;
+}
+
+.text3 span:nth-child(6){
+	font-family: novi;
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 1.50s;
+	animation-fill-mode: backwards;
+}
+
+.text3 span:nth-child(7){
+	font-family: novi;
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 2s;
+	animation-fill-mode: backwards;
+}
+.text3 span:nth-child(8){
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 2.25s;
+	animation-fill-mode: backwards;
+}
+.text3 span:nth-child(9){
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 2.50s;
+	animation-fill-mode: backwards;
+}
+.text3 span:nth-child(10){
+	font-family: novi;
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 3s;
+	animation-fill-mode: backwards;
+}
+.text3 span:nth-child(11){
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 3.25s;
+	animation-fill-mode: backwards;
+}
+.text3 span:nth-child(12){
+	font-family: novi;
+	position: relative;
+	animation: animate 4s;
+	animation-delay: 3.50s;
+	animation-fill-mode: backwards;
+}
+
+.slikaf{
+	height: 350px;
+	width: 350px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	float: left;
+	border-radius: 50%;
+}
+
+h1{
+	padding-top: 6%;
+	padding-right: 6%;
+	color: black;
+	text-align: right;
+	font-size: 30px;
+	letter-spacing: .2rem;
+    overflow: hidden;
+    text-shadow: 2px 2px 7.5px #000000
+}
+
+
+@keyframes animate{
+	0%{
+		bottom: -100px;
+	}
+	100%{
+		bottom: 0;
+	}
+}
+
+@keyframes text{
+	from {color: black;}
+	to {color: midnightblue;}
+}
+
+@font-face {
+	src: url(file:///C:/Users/Gabi/Desktop/BioRhymeExpanded-ExtraBold.ttf);
+	font-family: nos;
+}
+
+@font-face{
+	src: url(file:///C:/Users/Gabi/Desktop/tekst.ttf);
+	font-family: novi;
+}
+@keyframes centext{
+	from { color: white; }
+	to { color: MidnightBlue; }
+}
+
+.sekcija5{
+	background-color: black;
+	padding-bottom: 3.5%;
+}
+
+.sekcija6 {
+	padding-top: 5%;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.txtispodtima{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.ponudaspan{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.button{
+	background-color: rgba(0,0,0,0);
+	border-style:ridge;
+	color: black;
+	padding: 15px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button:hover{
+	animation: animacijabuttona 3s 1;
+	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	padding: 27px 27px;
+}
+
+@keyframes animacijabuttona{
+	from {color:black; text-shadow: none;}
+	to {color:midnightblue; text-shadow: 2px 2px 10px black;}
+}
+
+.podnozje{
+	text-align: center;
+	padding-top: 6%;
+	background-color: transparent;
+    background-image: linear-gradient(to top,#2a3840, #8ab8d4 70%);
+	width: auto;
+	
+}
+
+.ftext{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.fftext{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+.futer{
+	text-align: center;
+}

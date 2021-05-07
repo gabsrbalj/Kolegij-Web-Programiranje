@@ -1,0 +1,67 @@
+body{
+    background-image: url(); /* ubacite sliku po želji */
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+p{
+    text-align: center;
+}
+
+.zauredene{
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 40%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
+.korime{
+    margin: 10px;
+   border:none;
+   background:transparent;
+   border-bottom: 3px solid white;
+   font-size: 22px;
+}
+.comment{
+    margin: 10px;
+    border:none;
+    background:transparent;
+    border-bottom: 3px solid white;
+    font-size: 22px;
+}
+
+
+.komentar{
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 22px;
+    color:white;
+    background: transparent;
+    border: 3px solid white;
+}
+
+h5{
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.odgovor{
+    margin: 10px;
+   border:none;
+   background:transparent;
+   border-bottom: 3px solid white;
+   font-size: 22px;
+}
+.brojkomentara{
+    margin: 10px;
+   border:none;
+   background:transparent;
+   border-bottom: 3px solid white;
+   font-size: 22px;
+}

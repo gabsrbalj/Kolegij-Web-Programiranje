@@ -1,0 +1,247 @@
+.ozljede{
+    font-size: 400%;
+    margin-left: 30px;
+    animation: moving 4s;   
+    color: white;
+    font-weight: bolder;
+    
+}
+.sekcijanova{
+    padding-top: 15%;
+    background-color:#D3D3D3;
+    background-image: url(); /* ubacite sliku po želji */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.rame{
+    font-size: 200%;
+    margin-left: 50px;
+    animation: moving1 4s;
+    color: white;
+    font-weight: bolder;
+}
+.stopala{
+    font-size: 200%;
+    margin-left: 65px;
+    animation: moving2 4s;
+    color: white;
+    font-weight: bolder;
+}
+.koljena{
+    font-size: 200%;
+    margin-left: 80px;
+    animation: moving3 4s;
+    color: white;
+    font-weight: bolder;
+}
+.tetiva{
+    font-size: 200%;
+    margin-left: 95px;
+    animation: moving4 4s;
+    color: white;
+    font-weight: bolder;
+}
+.misici{
+    font-size: 200%;
+    margin-left: 110px;
+    animation: moving5 4s;
+    color: white;
+    font-weight: bolder;
+}
+.operacija{
+    font-size: 200%;
+    margin-left: 125px;
+    animation: moving6 4s;
+    color: white;
+    font-weight: bolder;
+}
+@keyframes moving6{
+    0%{
+        font-weight: bold;
+        margin-left: 0;
+        color:transparent;
+    }
+    100%{
+        margin-left: 125px;
+        color:white;
+        font-weight: bolder;
+    }
+}
+
+
+@keyframes moving{
+    0%{
+        font-weight: bold;
+        margin-left: 0;
+        color:transparent;
+    }
+    100%{
+        margin-left: 30px;
+        color:white;
+        font-weight: bolder;
+    }
+}
+
+@keyframes moving1{
+    0%{
+        
+        margin-left: 0;
+        font-weight: bold;
+        color: transparent;
+    }
+    100%{
+        font-weight: bolder;
+        margin-left: 50px;
+        color: white;
+    }
+}
+
+@keyframes moving2{
+    0%{
+        font-weight: bold;
+        color:transparent;
+        margin-left: 0;
+    }
+    100%{
+        font-weight: bolder;
+        color:white;
+        margin-left: 65px;
+    }
+}
+
+@keyframes moving3{
+    0%{
+        font-weight: bold;
+        color:transparent;
+        margin-left: 0;
+    }
+    100%{
+        font-weight: bolder;
+        color: white;
+        margin-left: 80px;
+    }
+}
+
+@keyframes moving4{
+    0%{
+        font-weight: bold;
+        color:transparent;
+        margin-left: 0;
+    }
+    100%{
+        font-weight: bolder;
+        color: white;
+        margin-left: 95px;
+    }
+}
+
+@keyframes moving5{
+    0%{
+        font-weight: bold;
+        color:transparent;
+        margin-left: 0;
+    }
+    100%{
+        font-weight: bolder;
+        color:white;
+        margin-left: 110px;
+    }
+}
+
+.povreda{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: nos;
+  
+}
+
+.reho{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: nos;
+}
+
+.usluga{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: nos;
+}
+.sekcijanova1{
+    padding-top: 5%;
+	background-color: white;
+	text-align: center;
+    padding-bottom: 5%;
+}
+
+.nar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.nar1{
+    font-size: 80px;
+}
+@font-face {
+	src: url("file:///C:/Users/Gabi/Desktop/pac.ttf");
+	font-family: nos;
+}
+.btn{
+    background-color: rgba(0,0,0,0);
+	border-style:ridge;
+	color: black;
+	padding: 15px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+	margin: 4px 2px;
+    cursor: pointer;
+    left:100px;
+    right: 0px;
+    
+}
+.btn:hover{
+    animation: botun 2s;
+     z-index: 99;
+}
+@keyframes botun{
+    from{padding: 15px 16px; }
+    to{padding: 20px 25px; 
+    font-weight: bolder;
+}
+  
+}
+
+
+
+h4 {
+	background-image: url(); /* ubacite sliku / gif po želji */
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 50px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+h5{
+    	background-image: url();
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
